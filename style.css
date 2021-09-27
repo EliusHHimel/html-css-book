@@ -1,0 +1,160 @@
+body{
+background-color: rgb(1, 87, 90);
+}
+.book-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.book{
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#first{
+    background-color: rgb(0, 139, 42);
+    background-image: url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/47/5c5eb0de59424db95f1a75e67310b5/CAD2-Intro-to-Cloud-Dev-w-HTML--CSS--and-JavaScript.jpg?auto=format%2Ccompress&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: 21;
+    margin-left: -17px;
+    margin-top: -17px;
+    transition: all 3s;
+    transform-origin: left;
+
+}
+#first:hover{
+    transform-origin: left;
+    transform: rotateY(-160deg);
+}
+.cover-elements{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: whitesmoke;
+    
+}
+.title{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.best-seller{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    background-color: rgba(255, 173, 30, 0.568);
+    padding: 10px;
+}
+.best-seller img{
+    width: 30%;
+}
+.author{
+    background-color: crimson;
+    margin-top: 90px;
+    border: 1px solid black;
+}
+
+
+#second{
+margin-left: -17px;
+margin-top: -17px;
+z-index: 20;
+}
+#second h2{
+    text-align: center;
+}
+#third{
+margin-left: -14px;
+margin-top: -14px;
+z-index: 19;
+}
+#fourth{
+margin-left: -11px;
+margin-top: -11px;
+z-index: 18;
+}
+#fifth{
+margin-left: -8px;
+margin-top: -8px;
+z-index: 17;
+}
+#sixth{
+margin-left: -5px;
+margin-top: -5px;
+z-index: 16;
+}
+#seventh{
+margin-left: -2px;
+margin-top: -2px;
+z-index: 15;
+}
+#eigth{
+margin-left: 1px;
+margin-top: 1px;
+z-index: 14;
+}
+#ninth{
+margin-left: 4px;
+margin-top: 4px;
+z-index: 13;
+}
+#tenth{
+margin-left: 7px;
+margin-top: 7px;
+z-index: 12;
+}
+#eleventh{
+margin-left: 10px;
+margin-top: 10px;
+z-index: 11;
+}
+#twelfth{
+margin-left: 13px;
+margin-top: 13px;
+z-index: 10;
+}
+#thirteen{
+margin-left: 16px;
+margin-top: 16px;
+z-index: 9;
+}
+#fourteenth{
+margin-left: 19px;
+margin-top: 19px;
+z-index: 8;
+}
+#fiftinth{
+margin-left: 22px;
+margin-top: 22px;
+z-index: 7;
+}
+#sixteenth{
+margin-left: 25px;
+margin-top: 25px;
+z-index: 6;
+}
+#seventeenth{
+margin-left: 28px;
+margin-top: 28px;
+z-index: 5;
+}
+#eighteenth{
+margin-left: 31px;
+margin-top: 31px;
+z-index: 4;
+}
+#nineteenth{
+margin-left: 34px;
+margin-top: 34px;
+z-index: 3;
+}
+#twentith{
+margin-left: 37px;
+margin-top: 37px;
+z-index: 2;
+}
